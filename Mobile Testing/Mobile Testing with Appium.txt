@@ -1,0 +1,102 @@
+Mobile Testing/Appium Introduction:
+-----------------------------------
+Importance of mobile phone is with a smartphone, internet connectivity and a mobile app, we can do many daily activities at ease.
+
+Various mobile OS:
+------------------
+Android, Google Inc, High popularity.
+IOS, Apple Inc, High popularity.
+Blackberry, Blackberry Ltd, Low popularity.
+Windows, Microsoft Inc, Medium popularity.
+
+Types of mobile apps:
+---------------------
+-Mobile Web App: not real applications; they are actually websites that open in your smartphones with the help of a web browser. These have the broadest audience of all primary types of apps.
+-Native App: developed specifically for one platform. It can be installed through an application store(such as Google Play Store).
+-Hybrid App: a way to expose content from existing websites in App format. Mixture of Mobile Web App and Native App.
+
+Tools available: Appium, Selendroid, ios-driver, Calabash, MoneyTalk, Frank, KIF(keep it functional) and Robotium.
+----------------
+Appium supports ios, android, multiple languages, without apk file, API level>17, scalability, parallel execution, real and virtual device.
+
+Open source tools requirements:
+-------------------------------
+-Application source code should not be modified for test automation.
+-Test should run across simulators/emulators and real devices.
+-Tests should be written using java and any test automation framework.
+-Large open source community for continuous maintenance and support.
+
+Advantages:
+-----------
+-Cross platform: android, ios; we can test web, native and hybrid apps.
+-Allows to communicate with other apps.
+-Supports in-built apps.
+-No pre-compilation required.
+-Any webdriver compatible language is supported. We just need language specific libraries to work on.
+
+Limitations:
+------------
+-API level should be >17.
+-Script execution is very slow in ios and android virtual devices.
+-No support for toast messages.
+-No parallel execution directly: we can handle using sauce labs.
+
+Appium:
+-------
+Mobile web, native and hybrid software applications test automation tool developed and supported by sauce labs. It is open source software automation tool which is useful to automate android and ios platform apps.
+
+Appium architecture:
+--------------------
+-As Appium is an HTTP server(webserver), it performs pretty much as selenium webdriver server.
+-Works as a client-server architecture.
+-Through json wire protocol the communication will happen with session IDs only.
+-Whenever the client sends a request the server will create a session and it will send back session ID to the client so that future communication between client and server will happen with this session ID only.
+
+How come the server will identify which session it needs to create?
+Usually the client has desired capabilities which we need to pass using which the session will be created. DC contains app name, platform version, package name, activity name, etc.
+Appium desired capabilities are sent by client to server via json objects by requesting the automation session we need.
+http://appium.io/slate/en/v1.2.0/?java#appium-server-capabilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
