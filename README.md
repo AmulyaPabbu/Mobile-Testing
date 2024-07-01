@@ -1,2 +1,2 @@
 # Mobile-Testing
-Her I'm sharing Mobile testing materials for practice.
+Hello here I'm sharing some online resources which I found would be useful to people in need. These include Mobile testing materials for preparation and practice.
